@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FF000000">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Indoor Localization"
+        android:layout_centerInParent="true"
+        android:textColor="#FFFFFFFF"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/ImgView"
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gm"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="7dp"
+        />
+
+    <Button
+        android:id="@+id/ButtonEND"
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:text="END"
+        android:layout_alignBottom="@id/textView"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="20dp"
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>

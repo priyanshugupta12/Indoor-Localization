@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#FF000000"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFFFF"
+        android:hint="Enter Name"
+        android:textSize="20sp"
+        android:layout_marginTop="300dp"
+        android:textStyle="bold"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFFFF"
+        android:hint="Password"
+        android:textSize="20sp"
+        android:layout_marginTop="365dp"
+        android:textStyle="bold"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/butLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/loginpic"/>
+
+</RelativeLayout>
